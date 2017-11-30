@@ -55,7 +55,7 @@ release = sanic.__version__
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'zh'
+language = 'zh-CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -66,7 +66,7 @@ language = 'zh'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'modules.rst']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'monokai'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False

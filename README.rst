@@ -3,13 +3,13 @@ Sanic
 
 |Join the chat at https://gitter.im/sanic-python/Lobby| |Build Status| |PyPI| |PyPI version|
 
-Sanic是一个用于Python3.5+的类Flask web服务器,有更快的运行速度.  It's based on the work done by the amazing folks at magicstack,受启发于`这篇文章 <https://magic.io/blog/uvloop-blazing-fast-python-networking/>`_.
+Sanic是一个适用于Python3.5+的类Flask web服务器，有着更快的速度。她基于magicstack那帮神奇的伙计们完成的uvloop,受启发于`这篇文章 <https://magic.io/blog/uvloop-blazing-fast-python-networking/>`_。
 
-On top of being Flask-like, Sanic supports async request handlers.  This means you can use the new shiny async/await syntax from Python 3.5, making your code non-blocking and speedy.
+在类似于Flask那种简洁基础之上, Sanic支持async异步请求处理。  这意味着你可以使用从Python3.5开始的新async/await语法来构建更快的非阻塞代码。
 
-Sanic is developed `on GitHub <https://github.com/channelcat/sanic/>`_. Contributions are welcome!
+Sanic在`GitHub <https://github.com/channelcat/sanic/>`_上开发，欢迎参与贡献!
 
-If you have a project that utilizes Sanic make sure to comment on the `issue <https://github.com/channelcat/sanic/issues/396>`_ that we use to track those projects!
+若过你的一个项目中用到了Sanic请确保提交`issue <https://github.com/channelcat/sanic/issues/396>`_ 以便我们追踪这些项目!
 
 Hello World 示例
 -------------------
@@ -43,7 +43,7 @@ installation.
 文档
 -------------
 
-`在readthedocs网站上阅读中文文档 <http://sanic.readthedocs.io/>`_.
+`在readthedocs网站上阅读中文文档 <http://sanic-doc-zh-cn.readthedocs.io>`_.
 
 .. |Join the chat at https://gitter.im/sanic-python/Lobby| image:: https://badges.gitter.im/sanic-python/Lobby.svg
    :target: https://gitter.im/sanic-python/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
@@ -59,11 +59,11 @@ installation.
 
 示例
 --------
-`Non-Core examples <https://github.com/channelcat/sanic/wiki/Examples/>`_. Examples of plugins and Sanic that are outside the scope of Sanic core.
+`Non-Core examples <https://github.com/channelcat/sanic/wiki/Examples/>`_. 扩展例子 and Sanic that are outside the scope of Sanic core.
 
-`Extensions <https://github.com/channelcat/sanic/wiki/Extensions/>`_. Sanic extensions created by the community.
+`扩展 <https://github.com/channelcat/sanic/wiki/Extensions/>`_. 社区创建的Sanic扩展。
 
-`Projects <https://github.com/channelcat/sanic/wiki/Projects/>`_. Sanic in production use.
+`项目 <https://github.com/channelcat/sanic/wiki/Projects/>`_. Sanic在实际项目中的应用.
 
 
 TODO
