@@ -34,7 +34,7 @@ Hello World 示例
 -  ``pip install sanic``
 
 使用bash命令可以安装不包括uvloop与json的Sanic, 你可以设置任一或全部的SANIC_NO_X
-变量为确定性字符串，例如 `'y', 'yes', 't', 'true', 'on', '1'`，就不会安装相应属性的包。
+变量为确定性字符串，例如 `'y', 'yes', 't', 'true', 'on', '1'`，那样就不会安装相应属性的包。
 
 - ``SANIC_NO_UVLOOP=true SANIC_NO_UJSON=true pip install sanic``
 
