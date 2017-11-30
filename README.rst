@@ -3,7 +3,7 @@ Sanic
 
 |Join the chat at https://gitter.im/sanic-python/Lobby| |Build Status| |PyPI| |PyPI version|
 
-Sanic is a Flask-like Python 3.5+ web server that's written to go fast.  It's based on the work done by the amazing folks at magicstack, and was inspired by `this article <https://magic.io/blog/uvloop-blazing-fast-python-networking/>`_.
+Sanic是一个用于Python3.5+的类Flask web服务器,有更快的运行速度.  It's based on the work done by the amazing folks at magicstack,受启发于`这篇文章 <https://magic.io/blog/uvloop-blazing-fast-python-networking/>`_.
 
 On top of being Flask-like, Sanic supports async request handlers.  This means you can use the new shiny async/await syntax from Python 3.5, making your code non-blocking and speedy.
 
@@ -11,7 +11,7 @@ Sanic is developed `on GitHub <https://github.com/channelcat/sanic/>`_. Contribu
 
 If you have a project that utilizes Sanic make sure to comment on the `issue <https://github.com/channelcat/sanic/issues/396>`_ that we use to track those projects!
 
-Hello World Example
+Hello World 示例
 -------------------
 
 .. code:: python
@@ -28,7 +28,7 @@ Hello World Example
     if __name__ == "__main__":
         app.run(host="0.0.0.0", port=8000)
 
-Installation
+安装
 ------------
 
 -  ``pip install sanic``
@@ -40,10 +40,10 @@ installation.
 - ``SANIC_NO_UVLOOP=true SANIC_NO_UJSON=true pip install sanic``
 
 
-Documentation
+文档
 -------------
 
-`Documentation on Readthedocs <http://sanic.readthedocs.io/>`_.
+`在readthedocs网站上阅读中文文档 <http://sanic.readthedocs.io/>`_.
 
 .. |Join the chat at https://gitter.im/sanic-python/Lobby| image:: https://badges.gitter.im/sanic-python/Lobby.svg
    :target: https://gitter.im/sanic-python/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
@@ -57,7 +57,7 @@ Documentation
    :target: https://pypi.python.org/pypi/sanic/
    
 
-Examples
+示例
 --------
 `Non-Core examples <https://github.com/channelcat/sanic/wiki/Examples/>`_. Examples of plugins and Sanic that are outside the scope of Sanic core.
 
@@ -70,11 +70,11 @@ TODO
 ----
  * http2
 
-Limitations
+不足
 -----------
-* No wheels for uvloop and httptools on Windows :(
+* Windows平台没有uvloop和httptools这样的工具 :(
 
-Final Thoughts
+终极思想
 --------------
 
 ::
