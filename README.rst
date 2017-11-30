@@ -7,7 +7,7 @@ Sanic是一个适用于Python3.5+，类似于Flask般简洁的web服务器，有
 
 在类似于Flask那般简洁的基础之上, Sanic支持async异步请求处理。  这意味着你可以使用从Python3.5开始的新async/await语法来构建更快的非阻塞代码。
 
-Sanic在 `GitHub <https://github.com/channelcat/sanic/>`_上开发，欢迎参与贡献!
+Sanic在 `GitHub <https://github.com/channelcat/sanic/>`_ 上开发，欢迎参与贡献!
 
 如果你的一个项目中用到了Sanic请确保提交 `issue <https://github.com/channelcat/sanic/issues/396>`_，以便我们追踪这些项目!
 
