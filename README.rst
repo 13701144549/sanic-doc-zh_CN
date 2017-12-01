@@ -42,8 +42,8 @@ Hello World 示例
 文档
 -------------
 
+`在gitbook网站上阅读中文文档 <https://www.gitbook.com/book/wangyves/sanic>`_
 `在readthedocs网站上阅读中文文档 <http://sanic-doc-zh_cn.readthedocs.io>`_
-
 `在readthedocs网站上阅读英文文档 <http://sanic.readthedocs.io>`_.
 
 .. |Join the chat at https://gitter.im/sanic-python/Lobby| image:: https://badges.gitter.im/sanic-python/Lobby.svg
