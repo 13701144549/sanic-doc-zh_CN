@@ -39,12 +39,17 @@ Hello World 示例
 - ``SANIC_NO_UVLOOP=true SANIC_NO_UJSON=true pip install sanic``
 
 
+当前工作分支
+-------------
+
+` 翻译latest稳定版 <https://github.com/WangYves/sanic-doc-zh_CN/tree/0.7.0>`_.
+
 文档
 -------------
 
 `在gitbook网站上阅读中文文档 <https://www.gitbook.com/book/wangyves/sanic>`_
 `在readthedocs网站上阅读中文文档 <http://sanic-doc-zh_cn.readthedocs.io>`_
-`在readthedocs网站上阅读英文文档 <http://sanic.readthedocs.io>`_.
+`在readthedocs网站上阅读英文文档 <http://sanic.readthedocs.io>`_
 
 .. |Join the chat at https://gitter.im/sanic-python/Lobby| image:: https://badges.gitter.im/sanic-python/Lobby.svg
    :target: https://gitter.im/sanic-python/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
