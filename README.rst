@@ -42,7 +42,7 @@ Hello World 示例
 当前工作分支
 -------------
 
-` 翻译latest稳定版 <https://github.com/WangYves/sanic-doc-zh_CN/tree/0.7.0>`_.
+`翻译latest稳定版 <https://github.com/WangYves/sanic-doc-zh_CN/tree/0.7.0>`_
 
 文档
 -------------
