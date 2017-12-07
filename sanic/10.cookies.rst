@@ -44,7 +44,7 @@ When returning a response, cookies can be set on the ``Response`` object.
         response.cookies['test']['httponly'] = True
         return response
 
-Deleting cookies
+删除cookies
 ----------------
 
 Cookies can be removed semantically or explicitly.
