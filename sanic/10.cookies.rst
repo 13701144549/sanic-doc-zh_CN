@@ -27,7 +27,7 @@ A user's cookies can be accessed via the ``Request`` object's ``cookies`` dictio
         test_cookie = request.cookies.get('test')
         return text("Test cookie set to: {}".format(test_cookie))
 
-Writing cookies
+写入 cookies
 ---------------
 
 When returning a response, cookies can be set on the ``Response`` object.
