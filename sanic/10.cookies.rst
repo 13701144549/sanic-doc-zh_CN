@@ -30,7 +30,7 @@ both read and write cookies, which are stored as key-value pairs.
 写入 cookies
 ---------------
 
-When returning a response, cookies can be set on the ``Response`` object.
+当返回一个响应时，可以使用``Response``对象来设置cookies。
 
 .. code-block:: python
 
