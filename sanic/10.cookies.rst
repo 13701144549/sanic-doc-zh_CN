@@ -13,7 +13,7 @@ both read and write cookies, which are stored as key-value pairs.
     sign the data.
 
 
-Reading cookies
+读取cookies
 ---------------
 
 A user's cookies can be accessed via the ``Request`` object's ``cookies`` dictionary.
