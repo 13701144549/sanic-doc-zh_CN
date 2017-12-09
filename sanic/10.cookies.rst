@@ -13,10 +13,10 @@ both read and write cookies, which are stored as key-value pairs.
     sign the data.
 
 
-Reading cookies
+读取cookies
 ---------------
 
-A user's cookies can be accessed via the ``Request`` object's ``cookies`` dictionary.
+用户cookies可以通过``Request``对象中的``cookies``字典访问。
 
 .. code-block:: python
 
@@ -27,10 +27,10 @@ A user's cookies can be accessed via the ``Request`` object's ``cookies`` dictio
         test_cookie = request.cookies.get('test')
         return text("Test cookie set to: {}".format(test_cookie))
 
-Writing cookies
+写入 cookies
 ---------------
 
-When returning a response, cookies can be set on the ``Response`` object.
+当返回一个响应时，可以使用``Response``对象来设置cookies。
 
 .. code-block:: python
 
